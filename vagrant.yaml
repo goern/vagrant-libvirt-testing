@@ -1,0 +1,16 @@
+---
+:domain: example.com
+:network: 192.168.132.0/24
+:image: fedora-20
+:boxurlprefix: ''
+:sync: rsync
+:puppet: false
+:docker: false
+:cachier: false
+:vms: []
+:namespace: omv
+:count: 1
+:username: ''
+:password: ''
+:poolid: []
+:repos: []

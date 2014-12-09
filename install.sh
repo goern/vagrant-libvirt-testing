@@ -18,3 +18,7 @@ vagrant up --provider=libvirt && vagrant status
 
 # Test case 2 - test system plugins
 vagrant plugin install vagrant-hostmanager
+vagrant plugin list | grep hostmanager
+if [ $? -ne 0 ]; then
+  echo "Vagrant plugin test FAILED"
+fi

@@ -61,7 +61,7 @@ vms = [
 # mutable by ARGV and settings file
 domain = 'example.com'		# demain domain to use (yes this *can* work)
 network = '192.168.123.0/24'	# default network to use
-image = 'centos-7.0'		# default image name
+image = 'fedora-20'		# default image name
 boxurlprefix = ''		# default url prefix (useful for private boxes)
 sync = 'rsync'			# default sync type
 puppet = false			# default use of puppet or not
